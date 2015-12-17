@@ -1,5 +1,13 @@
 extends layout
 
 block content
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js")
+  script(src="javascripts/is-mobile.js")
+  script(type="text/javascript").
+    $(document).ready(function(){
+      var text = isMobile ? 'MOBILE' : 'DESKTOP';
+      $('#is-mobile').html(text);
+    });
   h1= title
   p Welcome to #{title}
+  span#is-mobile
