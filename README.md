@@ -4,6 +4,7 @@ Running Postal is a playground
 ## features
 
 1. [isMobile](http://stackoverflow.com/questions/3514784/what-is-the-best-way-to-detect-a-mobile-device-in-jquery)
+2. [express-device](https://www.npmjs.com/package/express-device)
 
 ## SO
 
